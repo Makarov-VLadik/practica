@@ -1,0 +1,131 @@
+@media (max-width: 1250px) {
+    .my_container.fruit {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .block_line {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .fruits_bg {
+        transform: translate(42%, 20vw);
+    }
+}
+
+/* ===================== */
+@media (max-width: 1200px) {
+    .carousel-item > .btn {
+        position: absolute;
+        transform: translate(40vw, -20vw);
+    }
+    .form_block > .my_container {
+        padding-left: 20px;
+    }
+
+    .group_my_col {
+        padding: 0 20px;
+    }
+}
+/* ===================== */
+
+@media (max-width: 900px) {
+    .my_container.fruit > .info_block {
+        padding-top: 0px;
+        position: relative;
+    }
+    .my_container.fruit > .info_block,
+    .my_container.fruit > .btn {
+        transform: translateY(390px);
+    }
+    .my_container.fruit > .info_block > .info_text {
+        width: 100%;
+    }
+
+    .info_title {
+        font-size: 40px;
+    }
+    .big_title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 830px) {
+    .info_block {
+        /* background: url(../images/bg_text.png); */
+    }
+    .first_block {
+        /* background-size: cover; */
+    }
+    .info_text {
+        font-size: 14px;
+    }
+    .form_block {
+        background-size: cover;
+    }
+    .group_my_col {
+        flex-direction: column;
+    }
+    .my_col {
+        display: flex;
+        height: 70px;
+        align-items: center;
+    }
+    .my_col:nth-child(1),
+    .my_col:nth-child(2) {
+        width: auto;
+    }
+    .footer_title {
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+    img,
+    svg {
+        max-width: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo_wrap {
+        position: relative;
+        transform: scale(70%) translateY(-50px);
+    }
+    .info_block > .info_text:nth-child(4),
+    .info_block > .info_text:nth-child(2) {
+        display: none;
+    }
+    .big_title {
+        font-size: 25px;
+        padding: 0 5px;
+        line-height: 40px;
+    }
+    .form_title {
+        font-size: 35px;
+    }
+    .block_form,
+    .input {
+        width: 95%;
+    }
+}
+/* ================================= */
+@media (min-width: 992px) {
+    .collapse.navbar-collapse,
+    .navbar-nav {
+        width: 100%;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .collapse.navbar-collapse,
+    .navbar.navbar-dark.navbar-expand-lg,
+    .container-fluid.justify-content-lg-between {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

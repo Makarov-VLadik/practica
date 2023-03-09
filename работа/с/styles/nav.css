@@ -1,0 +1,67 @@
+header {
+    width: 1200px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_wrap {
+}
+.logo {
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.my_active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    margin: 0 -20px;
+}
+.nav_link {
+    /* height: 27px; */
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item {
+    margin: 0 25px;
+}
+.social_block {
+}
+
+/* ============== */
+.navbar.navbar-dark.navbar-expand-lg {
+    margin-top: 0;
+    padding-top: 0;
+}
+.navbar-brand {
+    margin-top: 0;
+    padding-top: 0;
+}
+.collapse.navbar-collapse,
+.navbar.navbar-dark.navbar-expand-lg,
+.container-fluid.justify-content-lg-between {
+    width: 95vw;
+    max-width: 992px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.nav-item > .social_block {
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}

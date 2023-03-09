@@ -1,0 +1,40 @@
+.carusel {
+    padding: 120px;
+}
+.carusel {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 100%;
+}
+
+.carousel-control-prev {
+    transform: translate(-76px, -40px);
+}
+.carousel-control-next {
+    transform: translate(-76px, 40px);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 81px;
+    height: 81px;
+}
+
+.carousel-control-prev-icon {
+    background: url(../images/icon/arrow_left.png);
+}
+
+.carousel-control-next-icon {
+    background: url(../images/icon/arrow_right.png);
+}
+
+.carousel-item > .btn {
+    height: 65px;
+    position: absolute;
+    transform: translate(450px, -250px);
+    z-index: 2;
+    background: url(../images/carusel/button.png) no-repeat;
+}
